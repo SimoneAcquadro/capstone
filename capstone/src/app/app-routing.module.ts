@@ -6,6 +6,7 @@ import { TechComponent } from './pages/tech/tech.component';
 import { AboutComponent } from './pages/about/about.component';
 import { CurriculumComponent } from './pages/curriculum/curriculum.component';
 import { LoginComponent } from './pages/login/login.component';
+import { PrivacyComponent } from './pages/privacy/privacy.component';
 
 const routes: Routes = [
   {
@@ -25,6 +26,9 @@ const routes: Routes = [
   },
   {
     path:'login', component: LoginComponent,
+  },
+  {
+    path:'privacy', component: PrivacyComponent,
   },
 ];
 
