@@ -14,6 +14,7 @@ import { FormsModule } from '@angular/forms';
 import { LoginComponent } from './pages/login/login.component';
 import { CurriculumComponent } from './pages/curriculum/curriculum.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { PrivacyComponent } from './pages/privacy/privacy.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     TechComponent,
     AboutComponent,
     LoginComponent,
-    CurriculumComponent
+    CurriculumComponent,
+    PrivacyComponent
   ],
   imports: [
     BrowserModule,
