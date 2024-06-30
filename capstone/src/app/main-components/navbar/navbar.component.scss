@@ -2,15 +2,36 @@
   margin-bottom: 80px;
 }
 
-#bordo{
-  border: 1px solid red;
-}
-
 #navbarCollapse {
   animation: fadeIn 2s forwards;
 }
 
+a {
+  font-size: 1.5rem;
+}
 
+#navSx {
+  display: flex;
+  padding-left: 16px;
+}
+
+#logoNome {
+  font-size: 1.1rem;
+}
+
+
+#navSx .navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+#navSx img {
+  margin-right: 8px;
+}
+
+#logoNome {
+  margin: 0;
+}
 
 @keyframes fadeIn {
   from {
@@ -20,6 +41,4 @@
     opacity: 1;
   }
 }
-
-
 
