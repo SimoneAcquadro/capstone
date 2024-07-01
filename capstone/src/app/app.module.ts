@@ -17,6 +17,7 @@ import { CurriculumComponent } from './pages/curriculum/curriculum.component';
 import { NgbCarouselModule, NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { PrivacyComponent } from './pages/privacy/privacy.component';
 import { CarouselComponent } from './main-components/carousel/carousel.component';
+import { CarouselTechComponent } from './main-components/carousel-tech/carousel-tech.component';
 
 
 @NgModule({
@@ -32,7 +33,8 @@ import { CarouselComponent } from './main-components/carousel/carousel.component
     LoginComponent,
     CurriculumComponent,
     PrivacyComponent,
-    CarouselComponent
+    CarouselComponent,
+    CarouselTechComponent
   ],
   imports: [
     BrowserModule,
