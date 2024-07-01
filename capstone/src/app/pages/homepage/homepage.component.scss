@@ -6,17 +6,6 @@
   margin-bottom: 1.9rem;
 }
 
-.coolDiv {
-  height: 400px;
-  width: auto;
-
-  background-color: #292929;
-  border-radius: 28px;
-  -webkit-box-shadow: inset 0px 0px 89px -32px rgba(0, 0, 0, 0.55);
-  -moz-box-shadow: inset 0px 0px 89px -32px rgba(0, 0, 0, 0.55);
-  box-shadow: inset 0px 0px 89px -32px rgba(0, 0, 0, 0.55);
-}
-
 .carousel-container {
   width: 100%;
   max-width: 800px;
@@ -50,9 +39,9 @@
     padding: 0;
   }
 
-  .coolDiv {
+/*  .coolDiv {
     height: 200px;
-  }
+  } */
 
 }
 
@@ -62,9 +51,9 @@
     padding-left: 0;
   }
 
-  .coolDiv {
+/*  .coolDiv {
     height: 250px;
-  }
+  } */
 }
 
 @media (min-width: 425px) {
@@ -73,11 +62,11 @@
     font-size: 4.6rem;
   }
 
-  .coolDiv {
+/*  .coolDiv {
 
     height: 300px;
 
-  }
+  } */
 
 }
 
@@ -87,19 +76,79 @@
     line-height: 7.3rem;
   }
 
-  .coolDiv {
+/*  .coolDiv {
     height: 350px;
-  }
+  } */
 }
 
 @media (min-width: 1024px) {
-  .coolDiv {
+/*  .coolDiv {
     height: 400px;
-  }
+  } */
 }
 
 @media (min-width: 1440px) {
-  .coolDiv {
+/*  .coolDiv {
     height: 450px;
-  }
+  } */
+}
+
+.button-20 {
+  appearance: button;
+  background-color: #ff8d0a;
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, .15), rgba(255, 255, 255, 0));
+  border: 1px solid #ff8d0a;
+  border-radius: 1rem;
+  box-shadow: rgba(255, 255, 255, 0.15) 0 1px 0 inset,rgba(46, 54, 80, 0.075) 0 1px 1px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.5;
+  margin: 0;
+  padding: .5rem 1rem;
+  text-align: center;
+  text-transform: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button-20:focus:not(:focus-visible),
+.button-20:focus {
+  outline: 0;
+}
+
+.button-20:hover {
+  background-color: #cc6d00;
+  border-color: #cc6d00;
+}
+
+.button-20:focus {
+  background-color: #cc6d00;
+  border-color: #ff8d0a;
+  box-shadow: rgba(255, 255, 255, 0.15) 0 1px 0 inset, rgba(46, 54, 80, 0.075) 0 1px 1px, rgba(104, 101, 235, 0.5) 0 0 0 .2rem;
+}
+
+.button-20:active {
+  background-color: #ff8d0a;
+  background-image: none;
+  border-color: #cc6d00;
+  box-shadow: rgba(46, 54, 80, 0.125) 0 3px 5px inset;
+}
+
+.button-20:active:focus {
+  box-shadow: rgba(46, 54, 80, 0.125) 0 3px 5px inset, rgba(104, 101, 235, 0.5) 0 0 0 .2rem;
+}
+
+.button-20:disabled {
+  background-image: none;
+  box-shadow: none;
+  opacity: .65;
+  pointer-events: none;
 }

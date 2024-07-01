@@ -1,6 +1,5 @@
 * {
   font-family: "Inter", sans-serif;
-  background-color: #353535;
   color: #fbfbef;
   max-width: 100%;
 
@@ -15,4 +14,13 @@ body {
 
 app-root {
   background-color: #353535;
+}
+
+.coolDiv {
+  border-radius: 28px;
+  -webkit-box-shadow: inset 0px 0px 89px -32px rgba(0, 0, 0, 0.55);
+  -moz-box-shadow: inset 0px 0px 89px -32px rgba(0, 0, 0, 0.55);
+  box-shadow: inset 0px 0px 89px -32px rgba(0, 0, 0, 0.55);
+  overflow: hidden;
+  background-color: #292929 !important;
 }
