@@ -1,3 +1,4 @@
+import { CarouselModule } from 'primeng/carousel';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -13,8 +14,10 @@ import { AboutComponent } from './pages/about/about.component';
 import { FormsModule } from '@angular/forms';
 import { LoginComponent } from './pages/login/login.component';
 import { CurriculumComponent } from './pages/curriculum/curriculum.component';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbCarouselModule, NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { PrivacyComponent } from './pages/privacy/privacy.component';
+import { CarouselComponent } from './main-components/carousel/carousel.component';
+
 
 @NgModule({
   declarations: [
@@ -28,13 +31,16 @@ import { PrivacyComponent } from './pages/privacy/privacy.component';
     AboutComponent,
     LoginComponent,
     CurriculumComponent,
-    PrivacyComponent
+    PrivacyComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    NgbModule
+    NgbModule,
+    NgbCarouselModule,
+    CarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]

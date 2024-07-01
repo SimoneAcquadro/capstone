@@ -1,0 +1,7 @@
+<div class="carousel-container">
+  <ngb-carousel [interval]="2000" [wrap]="true" [showNavigationArrows]="false" [showNavigationIndicators]="false">
+    <ng-template ngbSlide *ngFor="let item of carouselItems">
+      <img [src]="item.image" alt="Slide image" class="carousel-image">
+    </ng-template>
+  </ngb-carousel>
+</div>

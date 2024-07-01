@@ -1,17 +1,40 @@
-#web{
+#web {
   font-family: "Montserrat", sans-serif;
-  font-size: 4rem;
+  font-size: 3.4rem;
   line-height: 4rem;
   margin-top: 1.5rem;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
 }
 
-#h1 {
-  font-size: 2.5rem;
-  animation: fadeIn 2s forwards;
+.coolDiv {
+  height: 400px;
+  width: auto;
+
+  background-color: #292929;
+  border-radius: 28px;
+  -webkit-box-shadow: inset 0px 0px 89px -32px rgba(0, 0, 0, 0.55);
+  -moz-box-shadow: inset 0px 0px 89px -32px rgba(0, 0, 0, 0.55);
+  box-shadow: inset 0px 0px 89px -32px rgba(0, 0, 0, 0.55);
+}
+
+.carousel-container {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // Ombra del container
 }
 
 
-#web {
+
+#contenitoreAll {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.animazione {
   animation: fadeIn 2s forwards;
 }
 
@@ -19,9 +42,67 @@
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
 }
 
+@media (min-width: 320px) {
+  #web {
+    padding: 0;
+  }
 
+  .coolDiv {
+    height: 200px;
+  }
+
+}
+
+@media (min-width: 375px) {
+  #web {
+    font-size: 4.1rem;
+    padding-left: 0;
+  }
+
+  .coolDiv {
+    height: 250px;
+  }
+}
+
+@media (min-width: 425px) {
+
+  #web {
+    font-size: 4.6rem;
+  }
+
+  .coolDiv {
+
+    height: 300px;
+
+  }
+
+}
+
+@media (min-width: 768px) {
+  #web {
+    font-size: 8.4rem;
+    line-height: 7.3rem;
+  }
+
+  .coolDiv {
+    height: 350px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .coolDiv {
+    height: 400px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .coolDiv {
+    height: 450px;
+  }
+}

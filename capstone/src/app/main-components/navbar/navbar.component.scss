@@ -12,7 +12,7 @@ a {
 
 #navSx {
   display: flex;
-  padding-left: 16px;
+  padding-left: 10px;
 }
 
 #logoNome {
@@ -42,28 +42,44 @@ a {
   }
 }
 
-@media (min-width: 768px) {}
+@media (min-width: 375px) {
+  #navSx {
+    padding-left: 14px;
+}
+}
+
+@media (min-width: 768px) {
+  a {
+    font-size: 1.5rem;
+    padding-left: 0;
+  }
+
+  #container-nav {
+    margin-bottom: 80px;
+  }
+
+}
 
 @media (min-width: 2560px) {
   a {
-    font-size: 2.4rem; /* Ingrandisci il font per maggiore leggibilità */
+    font-size: 2.4rem;
   }
 
   #navSx {
-    padding-left: 580px; /* Aumenta il padding per mantenere proporzioni */
+    padding-left: 580px;
   }
 
   #logoNome {
-    font-size: 1.5rem; /* Ingrandisci il font del nome del logo */
+    font-size: 1.5rem;
   }
 
   #navSx img {
-    width: 64px; /* Ingrandisci il logo */
-    margin-right: 16px; /* Aumenta lo spazio tra il logo e il nome */
+    width: 64px;
+    margin-right: 16px;
   }
 
   .navbar-nav .nav-item {
-    margin-right: 32px; /* Aumenta lo spazio tra gli elementi del menu */
+    margin-right: 32px;
   }
 
   #navbarCollapse {

@@ -15,6 +15,10 @@
   transition: opacity 0.5s;
 }
 
+#freccia {
+  background-color: #FF8C0A;
+}
+
 .scroll-to-top.show {
   opacity: 1;
 }
@@ -24,8 +28,13 @@
 }
 
 .scroll-to-top:hover {
-  background-color: #FF8C0A;
+  background-color: #000000;
 }
+
+svg:hover{
+  background-color: #000000;
+}
+
 
 #linkedin{
   margin-left: 2em;
