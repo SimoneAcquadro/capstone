@@ -1,4 +1,4 @@
-#container-nav{
+#container-nav {
   margin-bottom: 80px;
 }
 
@@ -8,6 +8,10 @@
 
 #navbarCollapse {
   animation: fadeIn 2s forwards;
+}
+
+#logo {
+  width: 80px;
 }
 
 a {
@@ -20,7 +24,7 @@ a {
 }
 
 #logoNome {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
 }
 
 
@@ -37,10 +41,26 @@ a {
   margin: 0;
 }
 
+#a-web {
+  background: #FF8D0A;
+  background: linear-gradient(to bottom right, #FF8D0A 0%, #FFFFFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#a-tech {
+  background: #332DFF;
+  background: linear-gradient(to top left, #332DFF 0%, #FFFFFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
@@ -49,7 +69,7 @@ a {
 @media (min-width: 375px) {
   #navSx {
     padding-left: 14px;
-}
+  }
 }
 
 @media (min-width: 768px) {
@@ -90,8 +110,7 @@ a {
     margin-left: 535px;
   }
 
-  #container-nav{
+  #container-nav {
     margin-bottom: 100px;
   }
 }
-

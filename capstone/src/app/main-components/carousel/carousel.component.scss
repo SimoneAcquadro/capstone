@@ -4,6 +4,8 @@
   margin: auto;
   background-color: #292929;
   cursor: pointer;
+  margin-top: 40px;
+  margin-bottom: 60px;
 }
 
 .carousel-image {
@@ -13,14 +15,14 @@
   object-fit: contain;
   padding-top: 0;
   -webkit-box-shadow:
-    inset 0px 100px 89px -116px rgba(0, 0, 0, 0.3),
-    inset 0px -100px 89px -116px rgba(0, 0, 0, 0.3);
+    inset 0px 100px 89px -116px rgba(0, 0, 0, 0.1),
+    inset 0px -100px 89px -116px rgba(0, 0, 0, 0.1);
   -moz-box-shadow:
-    inset 0px 100px 89px -116px rgba(0, 0, 0, 0.3),
-    inset 0px -100px 89px -116px rgba(0, 0, 0, 0.3);
+    inset 0px 100px 89px -116px rgba(0, 0, 0, 0.1),
+    inset 0px -100px 89px -116px rgba(0, 0, 0, 0.1);
   box-shadow:
-    inset 0px 100px 89px -116px rgba(0, 0, 0, 0.3),
-    inset 0px -100px 89px -116px rgba(0, 0, 0, 0.3);
+    inset 0px 100px 89px -116px rgba(0, 0, 0, 0.1),
+    inset 0px -100px 89px -116px rgba(0, 0, 0, 0.1);
 }
 
 

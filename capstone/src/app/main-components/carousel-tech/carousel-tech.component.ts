@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class CarouselTechComponent {
   carouselItems = [
-    { image: '../../../assets/html-css-js.png', title: 'JavaScript' },
-    { image: '../../../assets/ng-sass-java.png', title: 'JavaScript' },
+    { image: '../../../assets/ps-lr-pr.png', title: 'JavaScript' },
+    { image: '../../../assets/dav-pr-fig.png', title: 'JavaScript' },
   ];
 }
