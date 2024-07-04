@@ -34,14 +34,25 @@
 @media (min-width: 320px) {
   .carosello {
     margin-bottom: 1.5rem;
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
-
+/*
 @media (min-width: 678px) {
   .carosello {
     padding: 0;
-    padding-top: 1rem;
+    padding-top: 0rem;
   }
+} */
+
+h2 {
+  text-align: right;
+  margin-right: 10px;
+  margin-bottom: 1.6rem;
+}
+
+.carosello-pad {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
