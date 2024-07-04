@@ -24,3 +24,17 @@ app-root {
   overflow: hidden;
   background-color: #292929 !important;
 }
+
+.animazione {
+  animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
