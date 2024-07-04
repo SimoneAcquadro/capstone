@@ -20,6 +20,7 @@ import { CarouselComponent } from './main-components/carousel/carousel.component
 import { CarouselTechComponent } from './main-components/carousel-tech/carousel-tech.component';
 import { WebComponentComponent } from './main-components/web-component/web-component.component';
 import { CarouselFotoComponent } from './main-components/carousel-foto/carousel-foto.component';
+import { VideoComponent } from './main-components/video/video.component';
 
 
 @NgModule({
@@ -38,7 +39,8 @@ import { CarouselFotoComponent } from './main-components/carousel-foto/carousel-
     CarouselComponent,
     CarouselTechComponent,
     WebComponentComponent,
-    CarouselFotoComponent
+    CarouselFotoComponent,
+    VideoComponent
   ],
   imports: [
     BrowserModule,
