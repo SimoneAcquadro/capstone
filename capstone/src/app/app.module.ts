@@ -19,6 +19,7 @@ import { PrivacyComponent } from './pages/privacy/privacy.component';
 import { CarouselComponent } from './main-components/carousel/carousel.component';
 import { CarouselTechComponent } from './main-components/carousel-tech/carousel-tech.component';
 import { WebComponentComponent } from './main-components/web-component/web-component.component';
+import { CarouselFotoComponent } from './main-components/carousel-foto/carousel-foto.component';
 
 
 @NgModule({
@@ -36,7 +37,8 @@ import { WebComponentComponent } from './main-components/web-component/web-compo
     PrivacyComponent,
     CarouselComponent,
     CarouselTechComponent,
-    WebComponentComponent
+    WebComponentComponent,
+    CarouselFotoComponent
   ],
   imports: [
     BrowserModule,
