@@ -1,7 +1,6 @@
 import { CarouselModule } from 'primeng/carousel';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './main-components/navbar/navbar.component';
@@ -21,6 +20,9 @@ import { CarouselTechComponent } from './main-components/carousel-tech/carousel-
 import { WebComponentComponent } from './main-components/web-component/web-component.component';
 import { CarouselFotoComponent } from './main-components/carousel-foto/carousel-foto.component';
 import { VideoComponent } from './main-components/video/video.component';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { Observable } from 'rxjs';
+
 
 
 @NgModule({
@@ -40,7 +42,7 @@ import { VideoComponent } from './main-components/video/video.component';
     CarouselTechComponent,
     WebComponentComponent,
     CarouselFotoComponent,
-    VideoComponent
+    VideoComponent,
   ],
   imports: [
     BrowserModule,
@@ -48,7 +50,8 @@ import { VideoComponent } from './main-components/video/video.component';
     FormsModule,
     NgbModule,
     NgbCarouselModule,
-    CarouselModule
+    CarouselModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

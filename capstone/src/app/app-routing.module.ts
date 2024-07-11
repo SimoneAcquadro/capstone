@@ -8,28 +8,16 @@ import { CurriculumComponent } from './pages/curriculum/curriculum.component';
 import { LoginComponent } from './pages/login/login.component';
 import { PrivacyComponent } from './pages/privacy/privacy.component';
 
+
 const routes: Routes = [
-  {
-    path:'', component: HomepageComponent,
-  },
-  {
-    path:'web', component: WebComponent,
-  },
-  {
-    path:'tech', component: TechComponent,
-  },
-  {
-    path:'about', component: AboutComponent,
-  },
-  {
-    path:'curriculum', component: CurriculumComponent,
-  },
-  {
-    path:'login', component: LoginComponent,
-  },
-  {
-    path:'privacy', component: PrivacyComponent,
-  },
+  { path:'', component: HomepageComponent },
+  { path:'web', component: WebComponent },
+  { path:'tech', component: TechComponent },
+  { path:'about', component: AboutComponent },
+  { path:'curriculum', component: CurriculumComponent },
+  { path:'login', component: LoginComponent },
+  { path:'privacy', component: PrivacyComponent },
+  { path:'register', component: PrivacyComponent },
 ];
 
 @NgModule({
