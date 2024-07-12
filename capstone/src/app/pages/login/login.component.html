@@ -35,7 +35,8 @@
                           La password deve essere di almeno 8 caratteri.
                         </div>
                       </div>
-                      <button type="submit" class="btn btn-primary">Login</button>
+                      <button *ngIf="!isLoggedIn" type="submit" class="btn btn-primary">Login</button>
+                      <button *ngIf="isLoggedIn" (click)="onLogout()" class="btn btn-danger">Logout</button>
                     </form>
                   </div>
                   <div class="tab-pane fade" id="register" role="tabpanel" aria-labelledby="register-tab">

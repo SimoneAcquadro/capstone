@@ -21,6 +21,7 @@ import { WebComponentComponent } from './main-components/web-component/web-compo
 import { CarouselFotoComponent } from './main-components/carousel-foto/carousel-foto.component';
 import { VideoComponent } from './main-components/video/video.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { LoginStatusService } from './services/login-status.service'
 import { Observable } from 'rxjs';
 
 
@@ -53,7 +54,7 @@ import { Observable } from 'rxjs';
     CarouselModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [LoginStatusService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
