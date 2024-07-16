@@ -1,13 +1,16 @@
 <div class="container-fluid pb-5 animazione" id="contenitoreAll">
   <div class="container">
     <p id="web" class="animazione">Web Developer</p>
-    <p class="animazione fs-3 mb-3">Le mie competenze Junior in ambito <button class="orange-btn" role="button"
-        routerLink="web">Web</button></p>
-    <div class=" container mb-5">
-      <app-carousel></app-carousel>
+    <div class="caroselli">
+      <div class="container ps-1">
+        <p class="animazione testo m-0">Le mie competenze in ambito <button class="orange-btn" role="button"
+            routerLink="web">Web</button></p>
+        <app-carousel></app-carousel>
+      </div>
+      <div class="container ps-1">
+        <p class="animazione mb-3 testo">Le mie competenze in ambito <button class="blue-btn" role="button"
+            routerLink="tech">Tech</button></p>
+        <app-carousel-tech></app-carousel-tech>
+      </div>
     </div>
-    <p class="animazione fs-3 mb-3">Le mie competenze in ambito <button class="blue-btn" role="button"
-        routerLink="tech">Tech</button></p>
-    <div class="container mb-5">
-      <app-carousel-tech></app-carousel-tech>
-    </div>
+  </div>

@@ -1,44 +1,35 @@
-
-  <div class="container" id="container-nav">
-    <nav class="navbar navbar-expand-md fixed-top">
-      <div class="container">
-        <div id="navSx">
-          <a class="navbar-brand text-light animazione" routerLink="">
-            <img src="../../../assets/logo-colori.png" alt="logo" id="logo">
-            <p id="logoNome">Simone <br> Acquadro</p>
-          </a>
-        </div>
-        <button
-          class="navbar-toggler mt-1 me-2"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarCollapse"
-          data-bs-theme="dark"
-          aria-controls="navbarCollapse"
-          aria-expanded="true"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="navbar-collapse collapse" id="navbarCollapse">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item ms-auto me-3">
-              <a class="nav-link text-light active ancore" routerLink="web" id="a-web">Web</a>
-            </li>
-            <li class="nav-item ms-auto me-3">
-              <a class="nav-link text-light active ancore" routerLink="tech" id="a-tech">Tech</a>
-            </li>
-            <li class="nav-item ms-auto me-3">
-              <a class="nav-link text-light active ancore" routerLink="about">About</a>
-            </li>
-            <li class="nav-item ms-auto me-3">
-              <a class="nav-link text-light active ancore" routerLink="curriculum">Esperienze</a>
-            </li>
-            <li class="nav-item ms-auto me-3">
-              <button class="orange-btn" role="button" routerLink="login">Login</button>
-            </li>
-          </ul>
-        </div>
+<div class="container" id="container-nav">
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <div id="navSx">
+        <a class="navbar-brand text-light animazione" routerLink="">
+          <img src="../../../assets/logo-colori.png" alt="logo" id="logo">
+          <p id="logoNome">Simone <br> Acquadro</p>
+        </a>
       </div>
-    </nav>
-  </div>
+      <button class="navbar-toggler mt-1 me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+        data-bs-theme="dark" aria-controls="navbarCollapse" aria-expanded="true" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse mt-md-3" id="navbarCollapse">
+        <ul class="navbar-nav ms-auto ">
+          <li class="nav-item ms-auto me-3 pb-lg-0 mb-3">
+            <button class="orange-btn" id="web-btn" role="button" routerLink="web">Web</button>
+          </li>
+          <li class="nav-item ms-auto me-3 pb-lg-0 mb-1">
+            <button class="blue-btn" id="tech-btn" role="button" routerLink="tech">Tech</button>
+          </li>
+          <li class="nav-item ms-auto me-3 ">
+            <a class="nav-link text-light active ancore pb-0" routerLink="about">About</a>
+          </li>
+          <li class="nav-item ms-auto me-3">
+            <a class="nav-link text-light active ancore pt-2 mb-2 " routerLink="curriculum">Esperienze</a>
+          </li>
+          <li class="nav-item ms-auto me-3 mb-3 mb-md-0">
+            <button class="black-btn" role="button" routerLink="login">Login</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>

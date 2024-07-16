@@ -15,7 +15,7 @@ export class AuthService {
   url!: string;
 
   constructor(private http: HttpClient) {
-    this.url = 'http://localhost:5000'
+    this.url = 'http://localhost:8080'
   }
 
   register(credentials: any): Observable<any> {

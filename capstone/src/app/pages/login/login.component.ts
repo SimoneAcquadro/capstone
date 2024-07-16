@@ -26,18 +26,25 @@ export class LoginComponent {
 
     this.authService.login(
       {
-        username: this.loginEmail,
-        password: this.loginPassword
+        name: this.loginEmail,
+        pass: this.loginPassword
       }
-    ).subscribe( (token) => {
-      localStorage.setItem('token', token);
+    ).subscribe( (res) => {
+      const { token } = res
 
-      this.isLoggedIn = true
-      this.loginStatusService.IsLoggedIn = true
+      if (token === null) {
+        console.log('null')
+        window.alert("E-Mail o password errati")
+      } else {
+        localStorage.setItem('token', token);
 
-      setTimeout(() => {
-        this.router.navigate(['curriculum']);
-      }, 250);
+        this.isLoggedIn = true
+        this.loginStatusService.IsLoggedIn = true
+
+        setTimeout(() => {
+          this.router.navigate(['curriculum']);
+        }, 250);
+      }
     })
   }
 
@@ -60,8 +67,8 @@ export class LoginComponent {
 
     this.authService.register(
       {
-        username: this.registerEmail,
-        password: this.registerPassword
+        name: this.registerEmail,
+        pass: this.registerPassword
       }
     ).subscribe( () => {})
   }

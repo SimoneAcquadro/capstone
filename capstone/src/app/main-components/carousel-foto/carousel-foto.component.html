@@ -1,13 +1,14 @@
-<div class="container-fluid">
+<div class="container-fluid" id="container-carosello">
   <div class="container">
-    <h2 class="fs-1">Fotografia</h2>
+    <h2>Fotografia</h2>
     <div class="carousel-container m-0 coolDiv " routerLink="web">
       <ngb-carousel [wrap]="true" [showNavigationArrows]="true" [showNavigationIndicators]="true" [interval]="0" class="carosello-pad
       ps-4">
         <ng-template ngbSlide *ngFor="let slide of slides">
           <div class="row">
             <div class="col-12 col-md-4" *ngFor="let item of slide">
-              <img [src]="item.image" alt="Slide image" class="carousel-image carosello" (click)="open(content, item.image)">
+              <img [src]="item.image" alt="Slide image" class="carousel-image carosello"
+                (click)="open(content, item.image)">
             </div>
           </div>
         </ng-template>
